@@ -35,5 +35,20 @@ greek++ is a small educational language supporting:
 ## How to Run
 From the repository root:
 
-```bash
-py src/greekpp_compiler.py examples/final.gre
+`py src/greekpp_compiler.py examples/final.gre`
+
+After running, the compiler generates:
+
+symFile.sy
+
+intFile.int
+
+TelFile.asm
+
+Running the Assembly (Ripes)
+
+Open Ripes
+
+Load the generated TelFile assembly output
+
+Execute and observe the program output
